@@ -1,0 +1,13 @@
+tvp-template:
+    meta:
+        name: 'TVP TestTheme'
+        renderer: TVP\Renderer\XPath
+        template: ../../Template/Pages/testtheme.html
+    mapping:
+        xpath: 'body[1]'
+        mappingType: inner
+        container:
+            field_content:
+                xpath: '//div[@id="main"]'
+                mappingType: outer
+                valueType: html

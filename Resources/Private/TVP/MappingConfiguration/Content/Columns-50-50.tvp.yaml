@@ -1,0 +1,20 @@
+tvp-mapping:
+  meta:
+    name: 'multicoulumn (1:1)'
+  combinedDataStructureIdentifier: 'TVP\TvplusTestTheme\Content\DataStructure:Subcolumns.xml'
+  combinedTemplateConfigurationIdentifier: 'TVP\TvplusTestTheme\Content\Template:Columns-50-50.tvp.yaml'
+  mappingToTemplate:
+    field_fceleft:
+      title: 'left column'
+      description: 'Map to DIV class subcl (all templates)'
+      dataType: flexform
+      dataPath: field_fceleft
+      valueProcessing: typoScript
+      valueProcessing.typoScript: '10 < lib.templavoila.fce.subcolumns'
+    field_fceright:
+      title: 'right column'
+      description: 'Map to DIV class subcr (all Templates)'
+      dataType: flexform
+      dataPath: field_fceright
+      valueProcessing: typoScript
+      valueProcessing.typoScript: '10 < lib.templavoila.fce.subcolumns'

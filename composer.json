@@ -1,0 +1,41 @@
+{
+    "name": "jpmschuler/tvplus_test_theme",
+    "type": "typo3-cms-extension",
+    "description": "Test Theme for TemplaVoilà! Plus",
+    "keywords": [
+        "TYPO3",
+        "extension",
+        "TemplaVoila",
+        "TemplaVoilaPlus",
+        "theme"
+    ],
+    "license": [
+        "GPL-2.0+"
+    ],
+    "authors": [
+        {
+            "name": "J. Peter M. Schuler",
+            "email": "j.peter.m.schuler@uni-due.de",
+            "role": "Developer"
+        },
+        {
+            "name": "Alexander Opitz",
+            "email": "opitz@extrameile-gehen.de",
+            "homepage": "http://www.extrameile-gehen.de",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "templavoilaplus/templavoilaplus": "^8.0.0-beta.2 | *@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jpmschuler\\TvplusExampleTheme\\": "Classes/"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "tvplus_test_theme"
+        }
+    }
+}

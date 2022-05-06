@@ -1,0 +1,13 @@
+tvp-mapping:
+  meta:
+    name: Grouping
+  combinedDataStructureIdentifier: 'TVP\TvplusTestTheme\Content\DataStructure:Grouping.xml'
+  combinedTemplateConfigurationIdentifier: 'TVP\TvplusTestTheme\Content\Template:Grouping.tvp.yaml'
+  mappingToTemplate:
+    field_fceleft:
+      title: content area
+      description: 'Map to DIV class subcl (all templates)'
+      dataType: flexform
+      dataPath: field_fceleft
+      valueProcessing: typoScript
+      valueProcessing.typoScript: '10 < lib.templavoila.fce.contentgroup'

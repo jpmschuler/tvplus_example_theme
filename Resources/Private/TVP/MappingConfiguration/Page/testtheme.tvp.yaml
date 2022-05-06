@@ -1,0 +1,13 @@
+tvp-mapping:
+  meta:
+    name: 'TVP Test Theme'
+  combinedDataStructureIdentifier: 'TVP\TvplusTestTheme\Page\DataStructure:testtheme.xml'
+  combinedTemplateConfigurationIdentifier: 'TVP\TvplusTestTheme\Page\Template:testtheme.yaml'
+  mappingToTemplate:
+    field_content:
+      title: Content Area
+      description: lib.templavoila.main
+      dataType: flexform
+      dataPath: field_content
+      valueProcessing: typoScript
+      valueProcessing.typoScript: '10 < lib.templavoila.main'

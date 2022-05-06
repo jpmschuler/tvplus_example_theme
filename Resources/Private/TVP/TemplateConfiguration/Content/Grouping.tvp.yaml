@@ -1,0 +1,13 @@
+tvp-template:
+  meta:
+    name: Bootstrap-Grouping
+    renderer: TVP\Renderer\XPath
+    template: ../../Template/Fces/Grouping.html
+  mapping:
+    xpath: 'body[1]'
+    mappingType: inner
+    container:
+      field_fceleft:
+        xpath: 'div[1]'
+        mappingType: outer
+        valueType: html

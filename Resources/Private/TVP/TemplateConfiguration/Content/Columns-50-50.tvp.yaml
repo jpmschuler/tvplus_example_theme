@@ -1,0 +1,17 @@
+tvp-template:
+  meta:
+    name: 'Mehrspaltigkeit (1:1)'
+    renderer: TVP\Renderer\XPath
+    template: ../../Template/Fces/Columns-50-50.html
+  mapping:
+    xpath: 'body[1]'
+    mappingType: inner
+    container:
+      field_fceleft:
+        xpath: '//div[@class="row"][1]/div[@class="col col-12 col-md-6"][1]'
+        mappingType: inner
+        valueType: html
+      field_fceright:
+        xpath: '//div[@class="row"][1]/div[@class="col col-12 col-md-6"][2]'
+        mappingType: inner
+        valueType: html

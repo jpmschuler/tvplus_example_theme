@@ -1,0 +1,12 @@
+page = PAGE
+page.10 = USER
+page.10.userFunc = Tvp\TemplaVoilaPlus\Controller\Frontend\FrontendController->renderPage
+
+
+lib.templavoila.main.10 = RECORDS
+lib.templavoila.main.10 {
+    source.current = 1
+    tables = tt_content
+    wrap = |
+    conf.tt_content.stdWrap.innerWrap.cObject.image.key.field = notexisting
+}
